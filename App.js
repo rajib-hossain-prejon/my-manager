@@ -1,13 +1,13 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { StyleSheet } from 'react-native';
 import 'react-native-gesture-handler';
-import FeedNavigator from './app/navigation/FeedNavigator';
+
 
 export default function App() {
   return (
     <NavigationContainer>
     
-      <FeedNavigator/>
+      <Text>Lot</Text>
       
       
     

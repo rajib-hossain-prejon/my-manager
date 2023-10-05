@@ -2,16 +2,19 @@
   "expo": {
     "name": "my-manager",
     "slug": "my-manager",
+    "scheme": "my-manager",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./app/assets/icon.png",
+    "icon": "./main/assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./app/assets/splash.png",
+      "image": "./main/assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -19,12 +22,17 @@
       "package": "com.rajibhossainprejon.mymanager",
       "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./app/assets/adaptive-icon.png",
+        "foregroundImage": "./main/assets/icon.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
-      "favicon": "./app/assets/favicon.png"
+      "favicon": "./main/assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5cb48ffa-8e47-44ac-906b-8d08c50eed17"
+      }
     }
   }
 }
